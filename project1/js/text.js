@@ -1,0 +1,1 @@
+document.all.bt.style.display = "none";

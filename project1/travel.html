@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高雄市旅遊資訊</title>
+    <link rel="stylesheet" href="css/style.css">  
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <div class="banner">
+           <h1>高雄旅遊資訊</h1>
+         <form>
+             <select name="gaoxiongLocal" id="gaoxiongLocal" aria-placeholder="--請選擇行政區-">
+            <option value="lingyaDistrict">苓雅區</option>
+             <option value="sanminDistrict">三民區</option>
+             <option value="xinxingDistrict">新興區</option>
+             <option value="bigTreeDistrict">大樹區</option>
+            </ul>
+            </select>
+         </form>  
+            </div>
+            <div class="popularDistricts">
+                <h2>熱門行政區</h2>
+                <button  type="button" value="苓雅區" class="lingyaDistrict" onclick="llingyaTitle(),lingyaDistrict()">苓雅區</button>
+                <button type="button" value="三民區" class="sanminDistrict" onclick="sanminTitle(),sanminDistrict()">三民區</button>
+                <button type="button" value="新興區" class="xinxingDistrict" onclick="xinxingTitle(),xinxingDistrict()">新興區</button>
+                <button type="button" value="大樹區" class="bigTreeDistrict" onclick="bigTreeTitle(),bigTreeDistrict()">大樹區</button>
+             </div>      
+        </div>
+        <div class="content"> 
+            <h2></h2>
+            <ul class="list">
+
+            </ul>
+            <a href="#gaoxiongLocal"><img src="img/btn_goTop.png" alt=""></a>
+        </div>
+        <div class="clearfix"></div>
+        <div class="footer">
+            <h2>高雄市旅遊網</h2>
+            <p>資料來源:高雄市政府</p>
+        </div>
+    </div>
+    <script src="js/all.js"></script>
+</body>
+</html>

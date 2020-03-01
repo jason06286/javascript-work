@@ -1,0 +1,402 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS RESET */
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+body{font-family:標楷體;}
+/* header */
+.header{
+    height: 300px;
+    position: relative;
+    background-color:#424242 ;
+
+}
+.header h1{
+  position: absolute;
+  left: 120px;
+  top: 85px;
+
+}
+.header h1 a{
+background-image: url(../img/BMICLogo.png);
+width: 117px;
+height: 117px;
+cursor: pointer;
+display: block;
+text-indent: 101%;
+overflow: hidden;
+white-space: nowrap;
+}
+.header h1 a{
+    display: block;
+    text-decoration: none;
+}
+.input{
+    position: absolute;
+    left: 320px;
+    top: 50px;
+}
+.input h2{
+    color:#FFD366;
+    font-size: 30px;
+    margin: 10px;
+}
+.height{
+    width: 300px;
+    height:40px;
+    border:#FFD366 solid 3px;
+    border-radius: 5px 5px 5px 5px;
+  }
+.weight{
+    width: 300px;
+    height:40px;
+    border:#FFD366 solid 3px;
+    border-radius: 5px 5px 5px 5px;
+}
+.addbtn{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    background-color: #FFD366;
+    border-radius:999em;
+    position: absolute;
+  right: 140px;
+  top: 80px;
+}
+/* btn change */
+
+.tooLight-btn{
+    width: 150px;
+    height: 150px;
+    border-radius: 999em;
+    border: lightseagreen solid 3px;
+    color:lightseagreen;
+    position: absolute;
+    right: 140px;
+    top: 80px;
+}
+.tooLight-btn h2{
+    font-size: 24px;
+    position: absolute;
+    right: 47.5px;
+    top: 50px;
+}
+.tooLight-btn p{
+    font-size: 24px;
+    position: absolute;
+    right:57.5px;
+    top: 90px;
+}
+.tooLight-btn span{
+    font-size: 30px;
+    position: absolute;
+    right:-70px;
+    top: 50px;
+}
+.tooLight-btn a{
+    display: block;
+    text-align: center;
+   width: 25px;
+   height: 25px;
+   border-radius: 999em;
+    background-color:lightseagreen ;
+    font-size: 30px;
+    position: absolute;
+    right:7.5px;
+    top: 107.5px;
+}
+.ideal-btn{
+    width: 150px;
+    height: 150px;
+    border-radius: 999em;
+    border: rgb(47, 202, 163) solid 3px;
+    color:rgb(47, 202, 163);
+    position: absolute;
+    right: 140px;
+    top: 80px;
+}
+.ideal-btn h2{
+    font-size: 24px;
+    position: absolute;
+    right: 47.5px;
+    top: 50px;
+}
+.ideal-btn p{
+    font-size: 24px;
+    position: absolute;
+    right:57.5px;
+    top: 90px;
+}
+.ideal-btn span{
+    font-size: 30px;
+    position: absolute;
+    right:-70px;
+    top: 50px;
+}
+.ideal-btn a{
+    display: block;
+    text-align: center;
+   width: 25px;
+   height: 25px;
+   border-radius: 999em;
+    background-color:rgb(47, 202, 163) ;
+    font-size: 30px;
+    position: absolute;
+    right:7.5px;
+    top: 107.5px;
+}
+.tooHeavy-btn{
+    width: 150px;
+    height: 150px;
+    border-radius: 999em;
+    border:coral solid 3px;
+    color:coral;
+    position: absolute;
+    right: 140px;
+    top: 80px;
+}
+.tooHeavy-btn h2{
+    font-size: 24px;
+    position: absolute;
+    right: 47.5px;
+    top: 50px;
+}
+.tooHeavy-btn p{
+    font-size: 24px;
+    position: absolute;
+    right:57.5px;
+    top: 90px;
+}
+.tooHeavy-btn span{
+    font-size: 30px;
+    position: absolute;
+    right:-70px;
+    top: 50px;
+}
+.tooHeavy-btn a{
+    display: block;
+    text-align: center;
+   width: 25px;
+   height: 25px;
+   border-radius: 999em;
+    background-color:coral ;
+    font-size: 30px;
+    position: absolute;
+    right:7.5px;
+    top: 107.5px;
+}
+.mildObesity-btn{
+    width: 150px;
+    height: 150px;
+    border-radius: 999em;
+    border: darkorange solid 3px;
+    color:darkorange;
+    position: absolute;
+    right: 140px;
+    top: 80px;
+}
+.mildObesity-btn h2{
+    font-size: 24px;
+    position: absolute;
+    right: 47.5px;
+    top: 50px;
+}
+.mildObesity-btn p{
+    font-size: 24px;
+    position: absolute;
+    right:57.5px;
+    top: 90px;
+}
+.mildObesity-btn span{
+    font-size: 30px;
+    position: absolute;
+    right:-130px;
+    top: 50px;
+}
+.mildObesity-btn a{
+    display: block;
+    text-align: center;
+   width: 25px;
+   height: 25px;
+   border-radius: 999em;
+    background-color:darkorange;
+    font-size: 30px;
+    position: absolute;
+    right:7.5px;
+    top: 107.5px;
+}
+.moderateObesity-btn{
+    width: 150px;
+    height: 150px;
+    border-radius: 999em;
+    border:indianred solid 3px;
+    color:indianred;
+    position: absolute;
+    right: 140px;
+    top: 80px;
+}
+.moderateObesity-btn h2{
+    font-size: 24px;
+    position: absolute;
+    right: 47.5px;
+    top: 50px;
+}
+.moderateObesity-btn p{
+    font-size: 24px;
+    position: absolute;
+    right:57.5px;
+    top: 90px;
+}
+.moderateObesity-btn span{
+    font-size: 30px;
+    position: absolute;
+    right:-130px;
+    top: 50px;
+}
+.moderateObesity-btn a{
+    display: block;
+    text-align: center;
+   width: 25px;
+   height: 25px;
+   border-radius: 999em;
+    background-color:indianred ;
+    font-size: 30px;
+    position: absolute;
+    right:7.5px;
+    top: 107.5px;
+}
+.severObesity-btn{
+    width: 150px;
+    height: 150px;
+    border-radius: 999em;
+    border:  red solid 3px;
+    color: red;
+    position: absolute;
+    right: 140px;
+    top: 80px;
+}
+.severObesity-btn h2{
+    font-size: 24px;
+    position: absolute;
+    right: 47.5px;
+    top: 50px;
+}
+.severObesity-btn p{
+    font-size: 24px;
+    position: absolute;
+    right:57.5px;
+    top: 90px;
+}
+.severObesity-btn span{
+    font-size: 30px;
+    position: absolute;
+    right:-130px;
+    top: 50px;
+}
+.severObesity-btn a{
+    display: block;
+    text-align: center;
+   width: 25px;
+   height: 25px;
+   border-radius: 999em;
+    background-color: red ;
+    font-size: 30px;
+    position: absolute;
+    right:7.5px;
+    top: 107.5px;
+}
+/* btn change */
+/* header */
+/* content */
+.content{margin:20px 0 20px 0 ;}
+.content h2{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+.list{
+    text-align: center;
+}
+.list li{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 100px;
+}
+.list li td{
+    width: 120px;
+    padding: 10px;
+}
+.list li span{
+    color: dimgray;
+    font-size: 14px;
+    padding: 10px;
+}
+.list li a{
+    padding: 10px;
+}
+.tooLight{border-left: lightseagreen solid 10px;}
+.ideal{border-left: rgb(47, 202, 163) solid 10px;}
+.tooHeavy{border-left: coral solid 10px;}
+.mildObesity{border-left: darkorange solid 10px;}
+.moderateObesity{border-left: indianred solid 10px;}
+.severeObesity{border-left: red solid 10px;}
+/* content */
+/* footer */
+.footer{
+    background-color:rgb(153, 150, 143);
+}
+.footer a{
+    display: block;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+/* footer */

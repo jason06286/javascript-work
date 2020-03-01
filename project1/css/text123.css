@@ -1,0 +1,26 @@
+.flex {
+    display: flex;
+    height: 300px;
+    padding: 15px;
+    background-color: #61a0f8;
+    // 修改以下值試試看 wrap | nowrap | wrap | wrap-reverse
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    flex: 0 0 30%;
+    background-color: #f08bc3;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .flex-2 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 60%;
+    background-color: #f08bc3;
+  }
